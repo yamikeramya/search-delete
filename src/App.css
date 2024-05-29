@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'roboto';
+  align-items: center;
+  height: 100vh;
+}
+.bg-color {
+  background-color: #3367d6;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  width: 100px;
+
+  margin-right: 20%;
+}
+.search-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color: #2850a7;
+  border-color: #2850a7;
+  border-width: 1px;
+  border-style: solid;
+  height: 35px;
+  width: 670px;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.search {
+  background-color: transparent;
+  border-style: none;
+  border-left-style: solid;
+  border-left-color: #3367d6;
+  border-left-width: 2px;
+  outline: none;
+  width: 670px;
+  height: 35px;
+  padding-left: 10px;
+  color: wheat;
+}
+.content-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+.inner {
+  border-color: #ececec;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.dirctions {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.time {
+  font-weight: bold;
+  font-style: 20%;
+  min-width: 60px;
+  color: #64748b;
+}
+.dirction {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-element {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.logo-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #475569;
+  font-size: small;
+  font-weight: bold;
+}
+.domain {
+  color: #64748b;
+  font-size: small;
+}
+.button {
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  margin-left: auto;
+  height: 40px;
+  width: 40px;
+}
+.button-img {
+  width: 20px;
+  height: 20px;
+}
